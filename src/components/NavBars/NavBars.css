@@ -1,0 +1,8 @@
+nav {
+    background-color: whitesmoke;
+    color: teal;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

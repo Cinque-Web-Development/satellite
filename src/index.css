@@ -6,6 +6,13 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
   background-color: #3E4561;
   color: #FFF;
+}
+
+h1 {
+  font-size: 2rem;
 }
