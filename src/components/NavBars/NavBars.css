@@ -1,8 +1,13 @@
 nav {
     background-color: whitesmoke;
-    color: teal;
+    color: #000;
     min-height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.stlt-site-name:hover {
+    color: #525252;
+    cursor: pointer;
 }
