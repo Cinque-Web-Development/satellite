@@ -8,6 +8,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   background-color: #3E4561;
   color: #FFF;
@@ -15,5 +20,10 @@ body {
 
 h1 {
   font-size: 2rem;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
   font-weight: 200;
 }
