@@ -1,0 +1,37 @@
+.Buttons {
+    padding: 10px;
+}
+
+.stlt-btn {
+    font-family: sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    border-radius: 5%;
+    border: solid 1px;
+    font-size: large;
+    cursor: pointer;
+    padding: 1px 6px;
+}
+  
+.stlt-std-btn {
+    background-color: whitesmoke;
+    border-color: black;
+    color: black;
+}
+
+.stlt-std-btn:hover {
+    background-color: #9d9d9d;
+    color: whitesmoke;
+}
+  
+.stlt-neg-btn {
+    padding: 1px 5px;
+    background-color: rgba(189, 37, 32, .74);
+    color: inherit;
+}
+  
+.stlt-neg-btn:hover {
+    color: rgba(189, 37, 32, .74);
+    background-color: whitesmoke;
+    font-weight: 400;
+}

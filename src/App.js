@@ -2,18 +2,23 @@ import './App.css';
 
 import NavBarCenterName from './components/NavBars/NavBarCenterName';
 import NavBarLogin from './components/NavBars/NavBarLogin';
+import Buttons from './components/Buttons/Buttons';
 
 export default function App() {
   return (
     <div className="App">
       <div className="nav-section">
-        <h1>Nav Bars</h1>
+        <h1 className="section-name">Nav Bars</h1>
         <NavBarCenterName />
         <br/>
         <NavBarLogin />
       </div>
       <br />
       <hr />
+      <div>
+        <h1 className="section-name">Buttons</h1>
+        <Buttons />
+      </div>
     </div>
   );
 }
