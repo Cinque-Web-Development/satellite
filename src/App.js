@@ -15,10 +15,20 @@ export default function App() {
       </div>
       <br />
       <hr />
+      <br />
       <div>
         <h1 className="section-name">Buttons</h1>
         <Buttons />
       </div>
+      <br />
+      <hr />
+      <br />
+      <div>
+        <h1 className="section-name">Cards</h1>
+      </div>
+      <br />
+      <hr />
+      <br />
     </div>
   );
 }

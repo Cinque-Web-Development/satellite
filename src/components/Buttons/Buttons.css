@@ -1,7 +1,19 @@
+/* site styling */
 .Buttons {
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.buttons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1px 4px;
+}
+
+/* element styling */
 .stlt-btn {
     font-family: sans-serif;
     font-weight: 100;
@@ -11,6 +23,12 @@
     font-size: large;
     cursor: pointer;
     padding: 1px 6px;
+    margin: 2px;
+    width: fit-content;
+}
+
+.stlt-btn:hover {
+    font-weight: 400;
 }
   
 .stlt-std-btn {
@@ -23,15 +41,50 @@
     background-color: #9d9d9d;
     color: whitesmoke;
 }
+
+.stlt-pos-btn {
+    background-color: rgb(57, 174, 42);
+    border-color: black;
+    color: black;
+}
+
+.stlt-pos-btn:hover {
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
   
 .stlt-neg-btn {
     padding: 1px 5px;
     background-color: rgba(189, 37, 32, .74);
-    color: inherit;
+    color: whitesmoke;
 }
   
 .stlt-neg-btn:hover {
-    color: rgba(189, 37, 32, .74);
-    background-color: whitesmoke;
-    font-weight: 400;
+    background-color: rgba(150, 23, 19, 0.74);
+}
+
+.stlt-warn-btn {
+    background-color: #D47215;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.stlt-warn-btn:hover {
+    background-color: rgb(186, 98, 16);
+}
+
+.stlt-blue-btn {
+    border: 3px solid blue;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10%;
+    transition: background-color border 0.2s;
+    text-shadow: 1px 1px 1px black;
+}
+.stlt-blue-btn:hover {
+    border: 3px solid #9D9D9D;
+    background-color: #9D9D9D;
+    transition: background-color border 0.2s;
 }

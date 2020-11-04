@@ -1,4 +1,6 @@
-nav {
+/* element styling */
+
+.stlt-nav {
     background-color: whitesmoke;
     color: #000;
     min-height: 5vh;

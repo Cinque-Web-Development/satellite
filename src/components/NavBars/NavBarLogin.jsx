@@ -3,7 +3,7 @@ import './NavBars.css';
 
 export default function NavBarLogin() {
     return (
-        <nav className="stlt-nav-bar-login">
+        <nav className="stlt-nav stlt-nav-bar-login">
             {/* add your site name or logo here */}
             <h1 className="stlt-site-name">Satellite by CWD</h1>
             <ul>
