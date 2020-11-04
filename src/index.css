@@ -40,6 +40,11 @@ h2 {
   font-weight: 200;
 }
 
+h3 {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
 ul {
   list-style: none;
   font-weight: 200;
