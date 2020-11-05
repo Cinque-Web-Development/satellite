@@ -33,6 +33,7 @@ export default function Buttons() {
                     <button className="stlt-btn stlt-lg-btn">Large</button>
                     <button className="stlt-btn stlt-xlg-btn"> Extra Large</button>
             </div>
+            <button className="stlt-btn testing">testing</button>
         </div>
     )
 }

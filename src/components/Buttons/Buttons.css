@@ -86,14 +86,14 @@
     color: whitesmoke;
     padding: 5px 20px;
     border-radius: 10%;
-    /* transition: background-color border 0.2s; */
+    transition: background-color 0.4s ease-in-out, border 0.4s;
+    -webkit-transition: background-color 0.4s ease-in-out, border 0.4s;
     text-shadow: 1px 1px 1px black;
 }
 
 .stlt-blue-btn:hover, .stlt-blue-btn:focus {
     border: 3px solid #9D9D9D;
     background-color: #9D9D9D;
-    transition: background-color 0.4s, border 0.4s;
 }
 
 .stlt-xsm-btn {
@@ -110,4 +110,27 @@
 
 .stlt-xlg-btn {
     font-size: 1.7rem;
+}
+
+/* testing */
+
+.testing {
+    background: -webkit-linear-gradient(0.25turn, #605E5E, 10%, black);
+    background: -moz-linear-gradient(0.25turn, #605E5E, 10%, black);
+    background: -o-linear-gradient(0.25turn, #605E5E, 10%, black);
+    background: linear-gradient(0.25turn, #605E5E, 10%, black);
+    /* font-size: 2rem; */
+    -webkit-transition: background 1s ease-in-out;
+    -moz-transition: background 1s ease-in-out;
+    -o-transition: background 1s ease-in-out;
+    transition: background 1s ease-in-out;
+    background-position: 0rem;
+    /* background-size: 100px 200px; */
+    /* width: 150px;
+    height: 100px; */
+}
+
+.testing:hover, .testing:focus {
+    /* background: linear-gradient(.25turn, red, 90%, blue); */
+    background-position: 4rem;
 }
