@@ -7,7 +7,7 @@ export default function Buttons() {
         <div className="Buttons">
             <div className="button-columns-wrapper">
                 <div className="buttons-section">
-                    <h3><code>button</code> elements</h3>
+                    <h3><code>button</code> elements</h3><br />
                     <button className="stlt-btn">Transparent</button>
                     <button className="stlt-btn stlt-std-btn">Neutral</button>
                     <button className="stlt-btn stlt-pos-btn">Positive</button>
@@ -16,7 +16,7 @@ export default function Buttons() {
                     <button className="stlt-btn stlt-blue-btn">Blue</button>
                 </div>
                 <div className="buttons-section">
-                    <h3><code>a</code> elements styled as buttons</h3>
+                    <h3><code>a</code> elements styled as buttons</h3><br />
                     <a href="/" className="stlt-btn">Transparent</a>
                     <a href="/" className="stlt-btn stlt-std-btn">Neutral</a>
                     <a href="/" className="stlt-btn stlt-pos-btn">Positive</a>

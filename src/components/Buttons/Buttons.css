@@ -84,8 +84,7 @@
     border: 3px solid blue;
     background-color: blue;
     color: whitesmoke;
-    width: 100px;
-    height: 35px;
+    padding: 5px 20px;
     border-radius: 10%;
     transition: background-color border 0.2s;
     text-shadow: 1px 1px 1px black;
