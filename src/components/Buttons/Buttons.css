@@ -111,26 +111,3 @@
 .stlt-xlg-btn {
     font-size: 1.7rem;
 }
-
-/* testing */
-
-.testing {
-    background: -webkit-linear-gradient(0.25turn, #605E5E, 10%, black);
-    background: -moz-linear-gradient(0.25turn, #605E5E, 10%, black);
-    background: -o-linear-gradient(0.25turn, #605E5E, 10%, black);
-    background: linear-gradient(0.25turn, #605E5E, 10%, black);
-    /* font-size: 2rem; */
-    -webkit-transition: background 1s ease-in-out;
-    -moz-transition: background 1s ease-in-out;
-    -o-transition: background 1s ease-in-out;
-    transition: background 1s ease-in-out;
-    background-position: 0rem;
-    /* background-size: 100px 200px; */
-    /* width: 150px;
-    height: 100px; */
-}
-
-.testing:hover, .testing:focus {
-    /* background: linear-gradient(.25turn, red, 90%, blue); */
-    background-position: 4rem;
-}
