@@ -2,7 +2,14 @@
 .Buttons {
     padding: 10px;
     display: flex;
+    flex-direction: column;
+}
+
+.button-columns-wrapper {
+    display: flex;
+    width: 100%;
     justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 .buttons-section {
@@ -27,7 +34,7 @@
     width: fit-content;
 }
 
-.stlt-btn:hover {
+.stlt-btn:hover, .stlt-btn:focus {
     font-weight: 400;
 }
   
@@ -37,7 +44,7 @@
     color: black;
 }
 
-.stlt-std-btn:hover {
+.stlt-std-btn:hover, .stlt-std-btn:focus {
     background-color: #9d9d9d;
     color: whitesmoke;
 }
@@ -48,7 +55,7 @@
     color: black;
 }
 
-.stlt-pos-btn:hover {
+.stlt-pos-btn:hover, .stlt-pos-btn:focus {
     color: whitesmoke;
     border-color: whitesmoke;
 }
@@ -59,7 +66,7 @@
     color: whitesmoke;
 }
   
-.stlt-neg-btn:hover {
+.stlt-neg-btn:hover, .stlt-neg-btn:focus {
     background-color: rgba(150, 23, 19, 0.74);
 }
 
@@ -69,22 +76,61 @@
     border-color: whitesmoke;
 }
 
-.stlt-warn-btn:hover {
+.stlt-warn-btn:hover, .stlt-warn-btn:focus {
     background-color: rgb(186, 98, 16);
 }
 
 .stlt-blue-btn {
     border: 3px solid blue;
     background-color: blue;
-    color: white;
-    width: 100px;
-    height: 35px;
+    color: whitesmoke;
+    padding: 5px 20px;
     border-radius: 10%;
-    transition: background-color border 0.2s;
+    transition: background-color 0.4s ease-in-out, border 0.4s;
+    -webkit-transition: background-color 0.4s ease-in-out, border 0.4s;
     text-shadow: 1px 1px 1px black;
 }
-.stlt-blue-btn:hover {
+
+.stlt-blue-btn:hover, .stlt-blue-btn:focus {
     border: 3px solid #9D9D9D;
     background-color: #9D9D9D;
-    transition: background-color border 0.2s;
+}
+
+.stlt-xsm-btn {
+    font-size: 0.7rem;
+}
+
+.stlt-sm-btn {
+    font-size: 1rem;
+}
+
+.stlt-lg-btn {
+    font-size: 1.4rem;
+}
+
+.stlt-xlg-btn {
+    font-size: 1.7rem;
+}
+
+/* testing */
+
+.testing {
+    background: -webkit-linear-gradient(0.25turn, #605E5E, 10%, black);
+    background: -moz-linear-gradient(0.25turn, #605E5E, 10%, black);
+    background: -o-linear-gradient(0.25turn, #605E5E, 10%, black);
+    background: linear-gradient(0.25turn, #605E5E, 10%, black);
+    /* font-size: 2rem; */
+    -webkit-transition: background 1s ease-in-out;
+    -moz-transition: background 1s ease-in-out;
+    -o-transition: background 1s ease-in-out;
+    transition: background 1s ease-in-out;
+    background-position: 0rem;
+    /* background-size: 100px 200px; */
+    /* width: 150px;
+    height: 100px; */
+}
+
+.testing:hover, .testing:focus {
+    /* background: linear-gradient(.25turn, red, 90%, blue); */
+    background-position: 4rem;
 }
