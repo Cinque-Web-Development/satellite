@@ -4,6 +4,8 @@ import NavBarCenterName from './components/NavBars/NavBarCenterName';
 import NavBarLogin from './components/NavBars/NavBarLogin';
 import Buttons from './components/Buttons/Buttons';
 import Cards from './components/Cards/Cards';
+import Forms from './components/Forms/Forms';
+
 export default function App() {
   return (
     <div className="App">
@@ -26,6 +28,13 @@ export default function App() {
       <div>
         <h1 className="section-name">Cards</h1>
         <Cards />
+      </div>
+      <br />
+      <hr />
+      <br />
+      <div>
+        <h1 className="section-name">Forms</h1>
+        <Forms />
       </div>
       <br />
       <hr />
