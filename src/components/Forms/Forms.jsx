@@ -137,7 +137,51 @@ export default function Forms() {
 
             </div>
 
-    
+    {/* Header Forms */}
+            <div className="header">
+            <h3 className="header">Header</h3>
+                {/* name, email, message header*/}
+                <form className="stlt-form header">
+                <h3 className="stlt-header">Contact Us</h3>
+                    <fieldset className="stlt-fieldset-sm">
+                        <label for="name" className="stlt-label-sm header">Name</label>
+                        <input type="text" id="name" name="sender_name" className="stlt-input-sm header" placeholder=""/>
+                    </fieldset>
+                    
+                    <fieldset className="stlt-fieldset-sm">
+                        <label for="email" className="stlt-label-sm header">Email</label>
+                        <input type="email" id="email" name="sender_email" className="stlt-input-sm header" placeholder="" />
+                    </fieldset>
+                    
+                    <fieldset className="stlt-fieldset-sm">
+                        <label for="message" className="stlt-label-sm header">Message</label>
+                        <textarea id="message" name="message" cols="50" rows="3" className="stlt-input-sm header" placeholder="" />
+                    </fieldset>
+                    
+                    <fieldset className="stlt-fieldset-sm">
+                        <input type="submit" value="Submit" className="stlt-btn stlt-btn-neutral stlt-btn-small" />
+                    </fieldset>
+                </form>
+
+                {/* Username/email && password */}
+                <form action="" className="stlt-form header">
+                <h3 className="stlt-header">Log In</h3>
+                    <fieldset className="stlt-fieldset-sm">
+                        <label for="name" className="stlt-label-sm header">Email</label>
+                        <input type="text" id="name" className="stlt-input-sm header" placeholder=""/>
+                    </fieldset>
+
+                    <fieldset className="stlt-fieldset-sm">
+                        <label for="password" className="stlt-label-sm header">Password</label>
+                        <input type="password" id="password" className="stlt-input-sm header" placeholder=""/>
+                    </fieldset>
+
+                    <fieldset className="stlt-fieldset-sm">
+                        <input type="submit" value="Submit" className="stlt-btn stlt-btn-neutral stlt-btn-small" />
+                    </fieldset>
+                </form>
+
+            </div>
             
         </div>
     )

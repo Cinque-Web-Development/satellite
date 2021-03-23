@@ -41,6 +41,7 @@ h3.shaded {
     margin: 25px;
     background: transparent;
     border: 1px solid #999;
+    border-radius: 3px;
 }
 
 .stlt-fieldset-sm {
@@ -86,3 +87,34 @@ h3.shaded {
     box-shadow: 2px 2px 5px rgba(0,0,0,.25);
 }
 
+
+/* Header */
+.stlt-form.header {
+    margin-top: 0;
+    background: #fefefe;
+    border: 1px solid #111;
+    border-top: none;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.25);
+    /* padding-top: 150px;
+    position: relative; */
+    padding: 0 0;
+}
+
+.stlt-header {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px 0;
+    margin-top: -10px;
+    background-color: rgb(50, 230, 230);
+    width: 100%;
+}
+
+.stlt-label-sm.header {
+    color: #111;
+}
+
+.stlt-input-sm.header {
+    border: 1px solid #888;
+    background-color: #ededed;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.25);
+}
