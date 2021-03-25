@@ -1,0 +1,120 @@
+/* breakpoints: >1000, 768-1000, <768 no breakpoint
+    
+*/
+
+/* site styling */
+.forms {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    border-radius: 2px;
+    margin-top: 100px;
+}
+
+.original, .clear {
+    background-color: transparent;
+}
+
+.shaded {
+    background-color: #fefefe;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 28px;
+}
+h3.shaded {
+    color: #111;
+}
+
+
+/* element styling */
+.stlt-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    margin: 25px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.stlt-fieldset-sm {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    border: none;
+}
+
+.stlt-label-sm {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 6px 0 4px;
+}
+
+.stlt-input-sm {
+    padding: .5rem;
+    border-radius: 2px;
+    border: none;
+    width: 380px;
+}
+
+/* Clear */
+.stlt-input-sm.clear {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+/* Shaded */
+.stlt-form.shaded {
+    background: #fefefe;
+    border: 1px solid #111;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.25);
+}
+
+.stlt-label-sm.shaded {
+    color: #111;
+}
+
+.stlt-input-sm.shaded {
+    border: 1px solid #888;
+    background-color: #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.25);
+}
+
+
+/* Header */
+.stlt-form.header {
+    margin-top: 0;
+    background: #fefefe;
+    border: 1px solid #111;
+    border-top: none;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.25);
+    /* padding-top: 150px;
+    position: relative; */
+    padding: 0 0;
+}
+
+.stlt-header {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px 0;
+    margin-top: -10px;
+    background-color: rgb(50, 230, 230);
+    width: 100%;
+}
+
+.stlt-label-sm.header {
+    color: #111;
+}
+
+.stlt-input-sm.header {
+    border: 1px solid #888;
+    background-color: #ededed;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.25);
+}
